@@ -46,7 +46,7 @@ body{
     background-color: aliceblue;
     justify-content: center;
     align-items: center;
-    border: 0px solid green;
+    border: 0px solid rgb(145, 167, 50);
 }
 .form{
     width: 65%;
@@ -80,7 +80,7 @@ label{
 }
 .text{
     font-size: 16px;
-    color: grey;
+    color: rgb(116, 101, 170);
     opacity: 1;
     font-family: Roboto;
 }
@@ -119,4 +119,15 @@ label{
         width: 40px;
         border-radius: 60%;
         margin-left: 12px;
+    }
+    /*UC5-Date month year*/
+    select{
+        padding: 12px;
+        border: 1px solid rgb(175, 123, 123);
+        border-radius: 4px;
+        resize: vertical;
+        font: normal normal 16px Roboto;
+        letter-spacing: 0px;
+        color: rgb(172, 102, 102);
+        background-color: transparent;
     }
