@@ -33,22 +33,54 @@
                 <label class="label text" for="profile">Profile Image</label>
                 <div class="profile-radio-content"></div>
                 <label>
-                    <input type="radio" id="profile1" name="profile" value="..\Assets\profilepicofemp\emppic.jfif" required>
-                    <img class="profile" id="image1" src="..\Assets\profilepicofemp\emppic.jfif">
+                    <input type="radio" id="profile1" name="profile" value="..\Assets\profilepicofemp\Emp1.jpg" required>
+                    <img class="profile" id="image1" src="..\Assets\profilepicofemp\Emp1.jpg">
                 </label>
                 <label>
-                    <input type="radio" id="profile2" name="profile" value="..\Assets\profilepicofemp\emppic.jfif"
+                    <input type="radio" id="profile2" name="profile" value="..\Assets\profilepicofemp\woman3.jpg"
                         required>
-                    <img class="profile" id="image2" src="..\Assets\profilepicofemp\emppic.jfif">
+                    <img class="profile" id="image2" src="..\Assets\profilepicofemp\woman3.jpg">
                 </label>
                 <label>
-                    <input type="radio" id="profile3" name="profile" value="..\Assets\profilepicofemp\emppic.jfif" required>
-                    <img class="profile" id="image3" src="..\Assets\profilepicofemp\emppic.jfif">
+                    <input type="radio" id="profile3" name="profile" value="..\Assets\profilepicofemp\Emp2.jpg" required>
+                    <img class="profile" id="image3" src="..\Assets\profilepicofemp\Emp2.jpg">
                 </label>
                 <label>
-                    <input type="radio" id="profile4" name="profile" value="..\Assets\profilepicofemp\emppic.jfif" required>
-                    <img class="profile" id="image4" src="..\Assets\profilepicofemp\emppic.jfif">
+                    <input type="radio" id="profile4" name="profile" value="..\Assets\profilepicofemp\woman4.jpg" required>
+                    <img class="profile" id="image4" src="..\Assets\profilepicofemp\woman4.jpg">
                 </label>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="gender">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label class="text" for="Male"> Male </label>
+                    <input type="radio" id="female" name="gender" value="female" required>
+                    <label class="text" for="Female">Female</label>
+                </div>
+            </div>
+            <div class="row-content"> 
+                <label class="label text" for="department">Department</label>
+
+                <div>
+                    <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                    <label class="text" for="hr">HR</label>
+                    <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales">
+                    <label class="text" for="sales">Sales</label>
+                    <input class="checkbox" type="checkbox" id="finance" name="finance" value="Finance">
+                    <label class="text" for="finance">Finance</label>
+                    <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="Engineer">
+                    <label class="text" for="engineer">Engineer</label>
+                    <input class="checkbox" type="checkbox" id="others" name="others" value="Others">
+                    <label class="text" for="others">Others</label>
+                </div>
+            </div>
+
+            <div class="row-content"> 
+                <label class="label text" for="salary">Choose Your Salary:</label>
+                <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100"
+                    value="400000">
+                <output class="salary-output" for="salary">500000</output>
             </div>
         </form>
     </div>
